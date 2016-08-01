@@ -12,10 +12,12 @@ $formatDateTime = function (DateTime $dateTime = null) {
 };
 
 return [
-    'id'               => $this->template->getId(),
-    'uuid'             => $this->template->getUuid(),
-    'locale'           => $this->template->getLocale(),
-    'description'      => $this->template->getDescription(),
+    'id'          => $this->template->getId(),
+    'uuid'        => $this->template->getUuid(),
+    'locale'      => $this->template->getLocale(),
+    'description' => $this->template->getDescription(),
+
+    'parameters'       => $this->template->getParameters(),
     'updateParameters' => $this->template->getUpdateParameters(),
 
     'subject'  => $this->template->getSubject(),
@@ -24,5 +26,5 @@ return [
 
     'createdAt'           => $formatDateTime($this->template->getCreatedAt()),
     'updatedAt'           => $formatDateTime($this->template->getUpdatedAt()),
-    'parametersUpdatedAt' => $formatDateTime($this->template->getParametersUpdatedAt())
+    'parametersUpdatedAt' => $formatDateTime($this->template->getParametersUpdatedAt()),
 ];
