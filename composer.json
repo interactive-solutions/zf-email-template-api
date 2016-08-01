@@ -1,0 +1,25 @@
+{
+  "name": "interactive-solutions/email-template-api",
+  "description": "A rest api for handling email templates",
+  "type": "module",
+  "authors": [
+    {
+      "name": "Antoine Hedgecock",
+      "email": "antoine.hedgecock@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "roave/email-templates": "~1.1.2",
+    "zf-commons/zfc-rbac": "~2.4"
+  },
+
+  "autoload": {
+    "psr-0": {
+      "InteractiveSolutions\\EmailTemplateApi": "src/"
+    },
+    "classmap": [
+      "./Module.php"
+    ]
+  }
+}
