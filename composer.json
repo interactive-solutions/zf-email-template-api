@@ -1,5 +1,5 @@
 {
-  "name": "interactive-solutions/email-template-api",
+  "name": "interactive-solutions/zf-email-template-api",
   "description": "A rest api for handling email templates",
   "type": "module",
   "license": "MIT",
