@@ -11,7 +11,7 @@
   ],
   "require": {
     "php": ">=7.0",
-    "roave/roave-email-templates": "~1.1.2",
+    "roave/roave-email-templates": "~1.2",
     "zf-commons/zfc-rbac": "~2.4"
   },
 
